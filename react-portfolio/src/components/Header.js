@@ -1,12 +1,15 @@
-function Header(){
+import Nav from "./Navigation";
+
+// Context, Reducers, Redux, Redux Toolkit
+
+function Header({ setPage }) {
+  //let setPage = props.setPage;
   return (
     <header>
-      <h1>Logo</h1>
-      <nav>Nav Bar here</nav>
-      
+      <h1 style={{color: 'black'}}>Thanh T Doan</h1>
+      <Nav setPage={setPage} />
     </header>
-  )
+  );
 }
-
 
 export default Header;
