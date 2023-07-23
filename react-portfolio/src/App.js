@@ -15,10 +15,10 @@ function App() {
   return (
     <div className="App">
       <Header setPage={setPage} />
-      {page === "about-me" ? <AboutMe /> : ""}
-      {page === "portfolio" ? <Portfolio /> : ""}
-      {page === "resume" ? <Resume /> : ""}
-      {page === "contact" ? <Contact /> : ""}
+      {page === "about-me" && <AboutMe />}
+      {page === "portfolio" && <Portfolio />}
+      {page === "resume" && <Resume />}
+      {page === "contact" && <Contact />}
       <Footer />
     </div>
   );

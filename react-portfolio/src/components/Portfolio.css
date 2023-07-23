@@ -1,0 +1,20 @@
+.work-cards {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  width: 350px;
+  height: 100% !important;
+}
+.card:first-child {
+  width: 450px;
+  /* height: 100px !important; */
+}
+.link-button {
+  margin: 6px;
+  display: flex;
+  flex-direction: column;
+}

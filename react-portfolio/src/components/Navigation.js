@@ -1,5 +1,5 @@
 import Container from "react-bootstrap/Container";
-// import nav from "react-bootstrap/Nav";
+import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 function Navigation({ setPage }) {
@@ -12,9 +12,11 @@ function Navigation({ setPage }) {
     //     <li onClick={()=>{ setPage("contact")} }>Contact</li>
     //   </ul>
     // </nav>
-    <Navbar bg="dark" data-bs-theme="dark">
+    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand
+        <Navbar.Brand>Thanh T Doan</Navbar.Brand>
+        {/* <Navbar.Brand
+          href=""
           onClick={() => {
             setPage("about-me");
           }}
@@ -22,6 +24,7 @@ function Navigation({ setPage }) {
           About Me
         </Navbar.Brand>
         <Navbar.Brand
+          href=""
           onClick={() => {
             setPage("portfolio");
           }}
@@ -29,6 +32,7 @@ function Navigation({ setPage }) {
           Portfolio
         </Navbar.Brand>
         <Navbar.Brand
+          href=""
           onClick={() => {
             setPage("resume");
           }}
@@ -36,12 +40,51 @@ function Navigation({ setPage }) {
           Contact
         </Navbar.Brand>
         <Navbar.Brand
+          href="" 
           onClick={() => {
             setPage("contact");
           }}
         >
           Resume
-        </Navbar.Brand>
+        </Navbar.Brand> */}
+        <Nav variant="tabs" defaultActiveKey="#first" className="me-auto">
+          <Nav.Item>
+            <Nav.Link
+              onClick={() => {
+                setPage("about-me");
+              }}
+            >
+              About Me
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              onClick={() => {
+                setPage("portfolio");
+              }}
+            >
+              Portfolio
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              onClick={() => {
+                setPage("resume");
+              }}
+            >
+              Resume
+            </Nav.Link>
+          </Nav.Item>
+          <Nav.Item>
+            <Nav.Link
+              onClick={() => {
+                setPage("contact");
+              }}
+            >
+              Contact
+            </Nav.Link>
+          </Nav.Item>
+        </Nav>
       </Container>
     </Navbar>
   );
