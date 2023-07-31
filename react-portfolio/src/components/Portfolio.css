@@ -1,6 +1,6 @@
 .work-cards {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   margin: 10px;
   justify-content: center;
   flex-wrap: wrap;
@@ -10,7 +10,7 @@
   height: 100% !important;
 }
 .card:first-child {
-  width: 450px;
+  width: 700px;
   /* height: 100px !important; */
 }
 .link-button {
