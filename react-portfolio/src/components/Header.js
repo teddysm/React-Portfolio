@@ -1,12 +1,8 @@
-import Nav from "./Navigation";
-
-// Context, Reducers, Redux, Redux Toolkit
+import Nav from "./Navigation"; 
 
 function Header({ setPage }) {
-  //let setPage = props.setPage;
   return (
     <header>
-      {/* <h1 style={{color: 'black'}}>Thanh T Doan</h1> */}
       <Nav setPage={setPage} />
     </header>
   );

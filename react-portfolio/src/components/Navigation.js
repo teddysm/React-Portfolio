@@ -1,87 +1,54 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation({ setPage }) {
   return (
-    // <nav>
-    //   <ul>
-    //     <li onClick={()=>{ setPage("about-me")} }>About Me</li>
-    //     <li onClick={()=>{ setPage("portfolio")} }>Portfolio</li>
-    //     <li onClick={()=>{ setPage("resume")} }>Resume</li>
-    //     <li onClick={()=>{ setPage("contact")} }>Contact</li>
-    //   </ul>
-    // </nav>
-    <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+    <Navbar
+      expand='lg'
+      bg='dark'
+      data-bs-theme='dark'
+      sticky='top'
+    >
       <Container>
-        <Navbar.Brand>Thanh T Doan</Navbar.Brand>
-        {/* <Navbar.Brand
-          href=""
-          onClick={() => {
-            setPage("about-me");
-          }}
-        >
-          About Me
+        <Navbar.Brand>
+          <h2>Thanh T Doan</h2>
         </Navbar.Brand>
-        <Navbar.Brand
-          href=""
-          onClick={() => {
-            setPage("portfolio");
-          }}
-        >
-          Portfolio
-        </Navbar.Brand>
-        <Navbar.Brand
-          href=""
-          onClick={() => {
-            setPage("resume");
-          }}
-        >
-          Contact
-        </Navbar.Brand>
-        <Navbar.Brand
-          href="" 
-          onClick={() => {
-            setPage("contact");
-          }}
-        >
-          Resume
-        </Navbar.Brand> */}
-        <Nav variant="tabs" defaultActiveKey="#first" className="me-auto">
+        <Nav variant='tabs' defaultActiveKey='#first' className='me-auto'>
           <Nav.Item>
             <Nav.Link
               onClick={() => {
-                setPage("about-me");
+                setPage('about-me');
               }}
             >
-              About Me
+              <h5>About Me</h5>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
               onClick={() => {
-                setPage("portfolio");
+                setPage('portfolio');
               }}
             >
-              Portfolio
+              <h5>Portfolio</h5>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
               onClick={() => {
-                setPage("resume");
+                setPage('resume');
               }}
             >
-              Resume
+              <h5>Resume</h5>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link
               onClick={() => {
-                setPage("contact");
+                setPage('contact');
               }}
             >
-              Contact
+              <h5>Contact</h5>
             </Nav.Link>
           </Nav.Item>
         </Nav>
