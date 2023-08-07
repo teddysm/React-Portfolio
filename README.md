@@ -1,6 +1,6 @@
 # React-Portfolio
 
-This is a social network API
+This is my portfolio made with React
 
 <br>
 
@@ -18,13 +18,12 @@ This is a social network API
 
 ## Description
 
-- This is an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.
+- This is a developer portfolio made with React. It has 4 main pages: About Me, Portfolio, Resume and Contact.
 
 <br>
 
 ## Usage
 
-- Use Insomnia or similar software to hit each GET, POST, PUT, DELETE routes
 - Start the server with 'npm start'
 
   ![Screenshot](/react-portfolio/src/images/AboutMe.png)
@@ -34,21 +33,23 @@ This is a social network API
 
 ## Links
 
-- Github Repo: https://github.com/teddysm/Social-Network-API
+- Github Repo: https://github.com/teddysm/React-Portfolio
 - Deployed: 
 
 <br>
 
 ## Features
 
-- User can create, update and delete users, thoughts, friends and reactions to thoughts
+- User check the developer information on the about page.
+- User can visit the developer's project deployed page or repo on the portfolio page.
+- User can see the developer's resume and download it on the resume page.
+- User can send a message to the developer on the contact me page.
 
 <br>
 
 ## Installations
 
 - Users need to install the dependencies with the command "npm i".
-- Users need to install Insomnia or similar software.
 
 <br>
 
