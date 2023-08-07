@@ -34,7 +34,7 @@ This is my portfolio made with React
 ## Links
 
 - Github Repo: https://github.com/teddysm/React-Portfolio
-- Deployed: 
+- Deployed: https://teddysm.github.io/React-Portfolio/
 
 <br>
 
