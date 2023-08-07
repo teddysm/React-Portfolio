@@ -27,15 +27,15 @@ This is a social network API
 - Use Insomnia or similar software to hit each GET, POST, PUT, DELETE routes
 - Start the server with 'npm start'
 
-  ![Screenshot](/Assets/screenshot1.png)
-  ![Screenshot](/Assets/screenshot2.png)
+  ![Screenshot](/react-portfolio/src/images/AboutMe.png)
+  ![Screenshot](/react-portfolio/src/images/ContactMe.png)
 
 <br>
 
 ## Links
 
 - Github Repo: https://github.com/teddysm/Social-Network-API
-- Video walkthrough: https://drive.google.com/file/d/1nFgl4rVLRg_N-vtLCBUvCjNlCRyTrQvP/view
+- Deployed: 
 
 <br>
 
