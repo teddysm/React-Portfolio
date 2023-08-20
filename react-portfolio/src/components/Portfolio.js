@@ -16,7 +16,7 @@ function Portfolio() {
       {works.map((work, i) => {
         return (
           <Card>
-            <Card.Img variant='top' src={imgArray[i]} />
+            <Card.Img variant='top' src={works[i].screenshot} />
             <Card.Body>
               <Card.Title>{works[i].title}</Card.Title>
               <Card.Text>{works[i].description}</Card.Text>
