@@ -2,42 +2,42 @@
   {
     "title": "Code Trove",
     "description": "A Code Snippet Library",
-    "screenshot": "/profile.png",
+    "screenshot": "../images/profile.png",
     "github": "https://github.com/EFP18/Code-Trove",
     "external": "https://code-trove.herokuapp.com/"
   },
   {
     "title": "SyllaShare",
     "description": "A Syllabus Sharing Site",
-    "screenshot": "/SyllaShare.png",
+    "screenshot": "../images/SyllaShare.png",
     "github": "https://github.com/Triest480",
     "external": ""
   },
   {
     "title": "SpyGame",
     "description": "A Retro 2D Game",
-    "screenshot": "/SpyGame.png",
+    "screenshot": "../images/SpyGame.png",
     "github": "https://github.com/Psherman1/SpyGame",
     "external": ""
   },
   {
     "title": "SnakeGame",
     "description": "The Classic 2D Snake Game",
-    "screenshot": "/snake.jpg",
+    "screenshot": "../images/snake.jpg",
     "github": "https://github.com/teddysm/SnakeJava",
     "external": ""
   },
   {
     "title": "U8Yet?",
     "description": "A Mashup of Google Maps and Yelp",
-    "screenshot": "/Front-page.png",
+    "screenshot": "../images/Front-page.png",
     "github": "https://github.com/teddysm/Vanderbilt-FullStack-Project1",
     "external": "https://teddysm.github.io/Vanderbilt-FullStack-Project1/"
   },
   {
     "title": "Weather Dashboard",
     "description": "A Weather App",
-    "screenshot": "/screenshot3.png",
+    "screenshot": "../images/screenshot3.png",
     "github": "https://github.com/teddysm/WeatherDashboard",
     "external": "https://teddysm.github.io/WeatherDashboard/"
   }
